@@ -17,3 +17,10 @@ spec:
             name: hello-app
             port:
               number: 8080
+      - path: /ibformation
+        pathType: Prefix
+        backend:
+          service:
+            name: ibformation
+            port:
+              number: 80
